@@ -24,5 +24,5 @@ void main() {
 
     vec4 color = vec4(0.0, 0.0, 0.0, 1.0);
 
-    imageStore(u_TextureOut, coord, color);
+    imageStore(u_TextureInt, coord, color);
 }
